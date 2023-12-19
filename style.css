@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+.cake-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cake {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #f9c2cc;
+    border: 1px solid #f08090;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#messageContainer {
+    text-align: center;
+    margin-top: 20px;
+}

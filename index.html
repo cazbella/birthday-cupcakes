@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofT83+dR/ImzX8CAq4Gz1z8CKI5iufeY" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <title>Happy Birthday!</title>
+</head>
+<body>
+    <header>
+        <h1>It's my birthday - have a cake!</h1>
+        <h2>How many cakes would you like?</h2>
+        <div>
+            <label for="cakeCount">Number of Cakes:</label>
+            <input type="number" id="cakeCount" min="0">
+            <button onclick="feedMe()">Feed Me</button>
+        </div>
+    </header>
+    <div id="cakeContainer" class="cake-container"></div>
+    <div id="messageContainer"></div>
+</body>
+</html>
